@@ -193,7 +193,6 @@ body {
     
     .image-container {
         width: 33%;
-        max-width: 1000px;
         height: 100%;
     }
 
@@ -223,7 +222,6 @@ body {
 
     .form-header {
         width: 75%;
-        max-width: 1554px;
         padding: 2rem;
         padding-bottom: 4rem;
     }
@@ -237,7 +235,6 @@ body {
     .form-row-pair {
         display: flex;
         width: 75%;
-        max-width: 1530px;
         gap: 60px;
         margin-left: 1rem;
         margin-right: 1rem;
@@ -245,7 +242,6 @@ body {
 
     .form-row {
         width: 50%;
-        max-width: 980px;
     }
 
     .submit {
