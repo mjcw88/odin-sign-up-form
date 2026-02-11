@@ -207,20 +207,25 @@ body {
         object-fit: cover;
     }
 
-    .form-header {
-        width: 75%;
-        max-width: 1555px;
-        padding: 2rem;
-        padding-bottom: 4rem;
-    }
-
     .form-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         height: 100vh;
         flex: 1;
         overflow-y: auto;
+    }
+
+    .form-inner-container {
+        display: flex;
+        flex-direction: column;
+        margin: auto 0;
+    }
+
+    .form-header {
+        width: 75%;
+        max-width: 1554px;
+        padding: 2rem;
+        padding-bottom: 4rem;
     }
 
     .inner-form > div:first-child {
@@ -232,6 +237,7 @@ body {
     .form-row-pair {
         display: flex;
         width: 75%;
+        max-width: 1530px;
         gap: 60px;
         margin-left: 1rem;
         margin-right: 1rem;
