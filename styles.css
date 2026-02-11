@@ -89,10 +89,6 @@ body {
     padding: 1rem;
 }
 
-.form-header > div:first-child {
-    padding-bottom: 1rem;
-}
-
 .inner-form {
     font-size: 1rem;
     padding: 1rem;
@@ -132,6 +128,7 @@ body {
 .form-row input[type='tel']:focus,
 .form-row input[type='password']:focus {
     outline: none;
+    border: 1px solid #1D4ED8;
     box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 2px;
 }
 
@@ -186,15 +183,17 @@ body {
     color: var(--hover-color);
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
     body {
         display: flex;
         flex-direction: row;
         height: 100vh;
+        overflow: hidden;
     }
     
     .image-container {
-        width: 768px; 
+        width: 33%;
+        max-width: 1000px;
         height: 100%;
     }
 
@@ -208,17 +207,48 @@ body {
         object-fit: cover;
     }
 
-    .form-container {
-        height: 100%;
-        flex: 1;
-    }
-    
-    .form-row-pair {
-        display: flex;
-        gap: 20px;
+    .form-header {
+        width: 75%;
+        max-width: 1555px;
+        padding: 2rem;
+        padding-bottom: 4rem;
     }
 
-    .form-row-pair .form-row {
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
         flex: 1;
+        overflow-y: auto;
+    }
+
+    .inner-form > div:first-child {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 1rem;
+    }
+
+    .form-row-pair {
+        display: flex;
+        width: 75%;
+        gap: 60px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .form-row {
+        width: 50%;
+        max-width: 980px;
+    }
+
+    .submit {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .form-row button[type="submit"] {
+        min-width: 250px;
+        width: 50%;
     }
 }
