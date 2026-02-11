@@ -17,8 +17,9 @@ Sign-up form project for the Odin Project Full Stack Javascript course.
 
 - External fonts via ```@import``` and ```@font-face```
 - ```:root``` to initialise variables
-- Dynamic/responsive unit types such as ```rem```
+- Dynamic/responsive unit types such as ```rem``` and ```viewports```
 - Mobile responsiveness via ```@media```
+- Position attributes
   
 ---
 
