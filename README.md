@@ -1,6 +1,6 @@
 # The Odin Project (Full Stack Javascript) - Sign-up Form
 
-Sign-up form project for the Odin Project Full Stack Javascript course.
+Sign-up form project for the Odin Project Full Stack Javascript cours.
 
 Full project specs can be found [here](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form).
 
