@@ -2,9 +2,12 @@
 
 Sign-up form project for the Odin Project Full Stack Javascript course.
 
+Full project specs can be found [here](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form).
+
 ---
 
 ##### HTML features used:
+
 - Form creation
 - Form labels
 - Form input types (text/phone number/email/password)
