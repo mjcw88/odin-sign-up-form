@@ -28,4 +28,4 @@ Full project specs can be found [here](https://www.theodinproject.com/lessons/no
 
 ##### Live Preview
 
-- https://mjcw88.github.io/odin-sign-up-form/
+- https://thriftymeerkat.github.io/odin-sign-up-form/
